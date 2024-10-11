@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Tenor_Sans"),
+    url("./fonts/Tenor_Sans/TenorSans-Regular.ttf") format("truetype");
+}
+.text {
+    font-family: 'Averia Serif Libre', serif;
+}
+.line{
+    padding: 2px;
+    border-radius: 20px;
+    width: 30px;
+}
+
+.text2 {
+    font-family: "Light";
+}
+.text3 {
+    font-family: "Light";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.custom-shadow {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+#flyoutMenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: #BBDC9C;
+    color: #446C4C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate3d(-100vw, 0, 0); /* Move it off-screen initially */
+    transition: transform 0.3s cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 1000;
+    font-family: "Light";
+}
+
+#flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0); /* Slide it in when 'show' is added */
+    transition: transform 0.3s cubic-bezier(0, .52, 0, 1);
+}
+
+.full-line{
+    padding: 2px;
+    border-radius: 20px;
+    width: 100px;
+}
+.toolbar-line{
+    padding: 1.5px;
+    border-radius: 20px;
+    width: auto;
+}
+
+/* Container box */
+.box {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Initial state for sliding div */
+.sliding-div {
+    transform: translateY(0); /* Start lower in the box (move it down) */
+    transition: all 2s ease; /* Smooth transition for animation */
+}
+
+.slide {
+    transform: translateY(-20%); /* Move upwards within the box */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Text is fully invisible */
+    }
+    100% {
+        opacity: 1; /* Text is fully visible */
+    }
+}
+
+/* Apply the animation to the values-text class */
+.values-text {
+    padding: 10px;
+    opacity: 0; /* Start with text hidden */
+    animation: fadeIn 2s ease-in-out forwards; /* 2s fade-in animation */
+}
