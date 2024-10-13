@@ -35,7 +35,7 @@
     top: 0;
     left: 0;
     transform: translate3d(-100vw, 0, 0); /* Move it off-screen initially */
-    transition: transform 0.3s cubic-bezier(0, .52, 0, 1);
+    transition: transform 1s cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
     font-family: "Light";
@@ -43,7 +43,7 @@
 
 #flyoutMenu.show {
     transform: translate3d(0vw, 0, 0); /* Slide it in when 'show' is added */
-    transition: transform 0.3s cubic-bezier(0, .52, 0, 1);
+    transition: transform 1s cubic-bezier(0, .52, 0, 1);
 }
 
 .full-line{
@@ -76,7 +76,7 @@
 }
 
 .slide {
-    transform: translateY(-20%); /* Move upwards within the box */
+    transform: translateY(-5%); /* Move upwards within the box */
 }
 
 @keyframes fadeIn {

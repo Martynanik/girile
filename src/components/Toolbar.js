@@ -67,12 +67,39 @@ const Toolbar = () => {
                 </div>
 
                 {/* Flyout Menu */}
-                <div id="flyoutMenu" className={`flex flex-col gap-8 text-2xl p-6 ${isShown ? "show" : ""}`}>
+                <div id="flyoutMenu" className={`flex flex-col  text-2xl p-6 ${isShown ? "show" : ""}`}>
                     <div onClick={handleClick} className="flex justify-end">x</div>
-                    <Link onClick={handleClick} to="/about" className="no-underline transition-all duration-200">Apie mus</Link>
-                    <Link onClick={handleClick} to="/products" className="no-underline transition-all duration-200">Produktai</Link>
-                    <Link  onClick={handleClick} to="/services" className="no-underline transition-all duration-200">Paslaugos</Link>
-                    <Link  onClick={handleClick} to="/contacts" className="no-underline transition-all duration-200">Kontaktai</Link>
+                    <Link onClick={() => {
+                        handleClick();
+                        pressedPage(1)
+                    }}
+                          to="/about" className="no-underline transition-all duration-200 ">Apie mus</Link>
+                    <div className={`${chosenPage === 1 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
+
+                    <Link onClick={() => {
+                        handleClick();
+                        pressedPage(2)
+                    }}
+                          to="/products"
+                          className="no-underline transition-all duration-200 mt-8 ">Produktai</Link>
+                    <div className={`${chosenPage === 2 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
+
+                    <Link onClick={() => {
+                        handleClick();
+                        pressedPage(3)
+                    }}
+                          to="/services"
+                          className="no-underline transition-all duration-200 mt-8">Paslaugos</Link>
+                    <div className={`${chosenPage === 3 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
+
+                    <Link onClick={() => {
+                        handleClick();
+                        pressedPage(4)
+                    }}
+                          to="/contacts"
+                          className="no-underline transition-all duration-200 mt-8">Kontaktai</Link>
+                    <div className={`${chosenPage === 4 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
+
                 </div>
             </div>
         </div>

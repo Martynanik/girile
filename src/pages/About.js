@@ -39,11 +39,12 @@ const About = () =>{
                 <h1 className="text2 text-3xl font-bold text-accent py-8 ">
                     Mūsų istorija
                 </h1>
-                <div className="text-accent text2 text-xl mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aspernatur assumenda consectetur cumque dignissimos excepturi expedita explicabo id impedit ullam? A
-                    accusamus amet at beatae distinctio dolore eaque ex fugiat id ipsa maiores minima modi mollitia
-                    numquam
-                    obcaecati optio quae, quam quos rem repudiandae sapiente sequi sint sit totam unde vitae!
+                <div className="text-accent text2 text-xl mb-8">
+                    UAB „Girilė“ buvo įkurta 2009 metais, siekiant skatinti atsakingą miškininkystę, kuri palaiko ekologinę pusiausvyrą. Mūsų misija – tvariai tvarkyti ir kirsti miškus, užtikrinant aukštos kokybės medienos gamybą ir aplinkos apsaugą. Tikime, kad svarbu užtikrinti gamtos išteklius ateities kartoms, todėl kiekviename mūsų darbo etape teikiame prioritetą kokybei ir ekologinei integracijai.
+                    <br/>
+                    <br/>
+                    Įmonės vadovas, Vidmantas Nikša, subūrė patyrusią komandą, dirbančią su modernia technika, kuri orientuota į kokybę ir ekologinę integraciją, siekiant užtikrinti gamtos išteklius ateities kartoms. Mes kviečiame jus prisijungti prie mūsų kelionės link žalesnės ir tvaresnės pasaulio, kur kiekvienas mūsų veiksmas prisideda prie geresnės ateities.
+
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center gap-8 items-center space-x-4 mb-6">
@@ -56,8 +57,11 @@ const About = () =>{
                             <div className="full-line bg-secondary"></div>
 
 
-                            {values && <div className="values-text text-center text2 text-secondary">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, maxime?
+                            {values && <div className="values-text text-center text-lg text2 text-secondary">
+                                Tvarumas <br/>
+                                Pagarba gamtai <br/>
+                                Sąžiningumas <br/>
+                                Inovacijos
                             </div>}
 
                         </div>
@@ -71,8 +75,7 @@ const About = () =>{
 
 
                             {mission && <div className="values-text text-center text2 text-secondary">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, maxime?
-                            </div>}
+                                Tvariai tvarkyti ir kirsti miškus, užtikrinant aukštos kokybės medienos gamybą ir aplinkos apsaugą.                            </div>}
 
                         </div>
                     </div>
@@ -85,7 +88,7 @@ const About = () =>{
 
 
                             {vision && <div className="values-text text-center text2 text-secondary">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, maxime?
+                                Skatinti atsakingą miškininkystę, prisidedant prie ekologinės pusiausvyros ir užtikrinti tvarius gamtos išteklius ateities kartoms.
                             </div>}
 
                         </div>
