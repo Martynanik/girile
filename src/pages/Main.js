@@ -7,7 +7,7 @@ const Main = () =>{
 
     return (
         <div className="relative w-full h-auto">
-            <img src='./images/forest.jpg' className="w-full h-full object-cover" alt="Forest"/>
+            <img src='./images/forest.jpg' className="w-full h-[600px] sm:h-full object-none sm:object-cover" alt="Forest"/>
 
             <div className="absolute inset-0 bg-accent opacity-40"></div>
             <div className="absolute inset-0 flex flex-col justify-center items-start p-6 md:p-10 lg:p-12">
