@@ -49,7 +49,7 @@ const About = () =>{
 
                 <div className="flex flex-col md:flex-row justify-center gap-8 items-center space-x-4 mb-6">
 
-                    <div onClick={() => getValues()} className=" custom-shadow box  bg-accent shadow-2xl">
+                    <div onClick={() => getValues()} className=" custom-shadow box1  bg-accent shadow-2xl">
                         <div className={`flex flex-col items-center gap-5 sliding-div ${values ? "slide" : ""}`}>
                             <div className="text-center text2 text-3xl text-secondary">
                                 Vertybės
@@ -66,7 +66,7 @@ const About = () =>{
 
                         </div>
                     </div>
-                    <div onClick={() => getMission()} className=" custom-shadow box  bg-accent shadow-2xl">
+                    <div onClick={() => getMission()} className=" custom-shadow box1  bg-accent shadow-2xl">
                         <div className={`flex flex-col items-center gap-5 sliding-div ${mission ? "slide" : ""}`}>
                             <div className="text-center text2 text-3xl text-secondary">
                                 Misija
@@ -79,7 +79,7 @@ const About = () =>{
 
                         </div>
                     </div>
-                    <div onClick={() => getVision()} className=" custom-shadow box  bg-accent shadow-2xl">
+                    <div onClick={() => getVision()} className=" custom-shadow box1  bg-accent shadow-2xl">
                         <div className={`flex flex-col items-center gap-5 sliding-div ${vision ? "slide" : ""}`}>
                             <div className="text-center text2 text-3xl text-secondary">
                                Vizija

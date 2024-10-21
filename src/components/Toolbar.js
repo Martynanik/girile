@@ -42,17 +42,34 @@ const Toolbar = () => {
                               className="no-underline transition-all duration-200">Apie mus</Link>
                         <div className={`${chosenPage === 1 ? 'toolbar-line' : ''} bg-secondary`}></div>
                     </div>
-                    <div className="flex flex-col gap-2">
-                        <Link to="/products"
-                              onClick={() => pressedPage(2)}
-                              className="no-underline transition-all duration-200">Produktai</Link>
-                        <div className={`${chosenPage === 2 ? 'toolbar-line' : ''} bg-secondary`}></div>
+                    <div className=" dropdown flex flex-col gap-2">
+                            <Link to="/produktai/skaldytosMalkos"
+                                       onClick={() => pressedPage(2)}
+                                       className=" flex items-center no-underline transition-all duration-200">Produktai
+                                <span className="arrow "></span>
+                            </Link>
+                            <div className={`${chosenPage === 2 ? 'toolbar-line' : ''} bg-secondary`}></div>
+
+                            <ul className="menu dropdown-content bg-base-100 box  w-full  shadow mt-[43px] ">
+                                <li><a>Skaldytos malkos</a></li>
+                                <li><a>Apvali mediena</a></li>
+                            </ul>
+
 
                     </div>
-                    <div className="flex flex-col gap-2">
+                    <div className=" dropdown flex flex-col gap-2">
                         <Link to="/services"
                               onClick={() => pressedPage(3)}
-                              className="no-underline transition-all duration-200">Paslaugos</Link>
+                              className=" flex items-center no-underline transition-all duration-200">Paslaugos
+                            <span className="arrow "></span>
+                        </Link>
+
+                        <ul className="menu dropdown-content bg-base-100 box  w-full  shadow mt-[43px] ">
+                            <li><a>Miškininkystė</a></li>
+                            <li><a>Medienos ruoša</a></li>
+                            <li><a>Transporto paslaugos</a></li>
+
+                        </ul>
                         <div className={`${chosenPage === 3 ? 'toolbar-line' : ''} bg-secondary`}></div>
 
                     </div>

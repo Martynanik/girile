@@ -58,10 +58,22 @@
 }
 
 /* Container box */
-.box {
+.box1 {
     border-radius: 10px;
     width: 300px;
     height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-product {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -93,4 +105,86 @@
     padding: 10px;
     opacity: 0; /* Start with text hidden */
     animation: fadeIn 2s ease-in-out forwards; /* 2s fade-in animation */
+}
+
+.arrow {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid #BBDC9C; /* Color of the chevron */
+    border-bottom: 3px solid #BBDC9C;
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.oak {
+    background-image: url("https://oak-firewood.com/wp-content/uploads/2021/11/klin_dried_oak1.jpg");
+    background-size: cover;     /* Make the image cover the entire div */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+
+}
+
+.oak:hover {
+    transform: scale(1.03); /* Enlarge the div by 10% when hovered */
+}
+
+.birch {
+    background-image: url("https://i0.wp.com/flatheadfathernson.com/wp-content/uploads/2021/06/birch-firewood-1.jpg?fit=1000%2C750&ssl=1");
+    background-size: cover;     /* Make the image cover the entire div */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+
+}
+
+.birch:hover {
+    transform: scale(1.03); /* Enlarge the div by 10% when hovered */
+}
+
+.alder {
+    background-image: url("https://www.cedarwoodfuels.co.uk/wp-content/uploads/2021/09/AlderSq.jpg");
+    background-size: cover;     /* Make the image cover the entire div */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+
+}
+
+.alder:hover {
+    transform: scale(1.03); /* Enlarge the div by 10% when hovered */
+}
+
+
+.ash {
+    background-image: url("https://firewoodtulsa.com/wp-content/uploads/2023/01/Ash-Firewood-Delivery-225x300.jpeg");
+    background-size: cover;     /* Make the image cover the entire div */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+
+}
+.ash:hover {
+    transform: scale(1.03); /* Enlarge the div by 10% when hovered */
 }

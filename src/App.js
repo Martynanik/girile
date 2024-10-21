@@ -4,10 +4,14 @@ import Toolbar from "./components/Toolbar";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Services from "./pages/Services";
-import Products from "./pages/Products";
+import SkaldytosMalkos from "./pages/SkaldytosMalkos";
 import Main from "./pages/Main";
 import Footer from "./components/Footer";
 import "./fonts/Tenor_Sans/TenorSans-Regular.ttf"
+import ApvaliMediena from "./pages/ApvaliMediena";
+import Azuolas from "./pages/Azuolas";
+import Berzas from "./pages/Berzas";
+import Alksnis from "./pages/Alksnis";
 
 function App() {
     return (
@@ -23,7 +27,12 @@ function App() {
                         <Route path="/about" element={<About />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/services" element={<Services />} />
-                        <Route path="/products" element={<Products />} />
+                        <Route path="/produktai/skaldytosMalkos" element={<SkaldytosMalkos />}/>
+                        <Route path="/produktai/apvaliMediena" element={<ApvaliMediena />} />
+                        <Route path="/produktai/skaldytosMalkos/azuolas" element={<Azuolas />} />
+                        <Route path="/produktai/skaldytosMalkos/berzas" element={<Berzas />} />
+                        <Route path="/produktai/skaldytosMalkos/alksnis" element={<Alksnis />} />
+
                     </Routes>
                 </main>
 

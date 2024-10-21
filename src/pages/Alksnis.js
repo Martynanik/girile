@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 
 
-const Products = () =>{
-    return (
+
+const Alksnis = () =>{
+    return(
         <div className="text-center text2">
             KURIAMAS
         </div>
     )
 }
 
-export default Products
+export default Alksnis
