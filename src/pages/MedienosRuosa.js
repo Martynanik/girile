@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 
 
-const Services = () =>{
+
+const MedienosRuosa = () =>{
     return(
         <div className="text-center text2">
-           KURIAMAS
+            KURIAMAS
         </div>
     )
 }
 
-export default Services
+export default MedienosRuosa

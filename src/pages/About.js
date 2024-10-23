@@ -31,7 +31,7 @@ const About = () =>{
                 <div className="absolute inset-0 flex flex-col justify-center items-start p-6 md:p-10 lg:p-12">
                     {/* Text */}
                     <h1 className="text-secondary  text text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
-                        Susipažinkite su mūsų istorija geriau
+                        Susipažinkite su mūsų istorija
                     </h1>
                 </div>
             </div>

@@ -17,7 +17,7 @@ const Main = () =>{
 
 
                 <button
-                    onClick={() => nav('/contacts')}
+                    onClick={() => nav('/kontaktai')}
                     className="bg-secondary  text2 text-accent font-bold px-4 py-2 md:px-6 md:py-4 transition-all duration-200">
                     SUSISIEKITE
                 </button>
