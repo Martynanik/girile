@@ -16,8 +16,12 @@ const SkaldytosMalkos = () =>{
                 </h1>
             </div>
             <div className="text-accent text2 text-xl mb-8 p-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aut beatae corporis cum cupiditate dolor enim est fugit inventore laborum molestias natus nobis nulla odit reprehenderit sapiente similique suscipit totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At impedit numquam qui tempora? A aspernatur blanditiis consequuntur dolorem ducimus ea, facilis fugit inventore officia praesentium sapiente tenetur totam ut voluptates?
-                <br/>
+                <div className="mt-3">                Tikriausiai neapsiriksime teigdami, kad malkos yra viena populiariausių kietojo kuro rūšių tiek namų šildymui, tiek kitiems poreikiams. Mūsų įmonė siūlo aukštos kokybės džiovintas ir žalias malkas, kurias galite rinktis iš skirtingų medienos rūšių pagal savo poreikius. Turime beržo, ąžuolo, uosio, juodalksnio bei kitų rūšių malkų, kurios patenkins įvairius klientų lūkesčius.
+                </div>
+                <div className="mt-3">                Ypatingai didžiuojamės mūsų modernia ir galinga džiovinimo sistema, kuri leidžia paruošti aukščiausios kokybės džiovintas malkas. Jos dega efektyviau, ilgiau ir yra paruoštos iš karto naudoti. Žalias malkas taip pat galite rinktis, jei norite, kad jos natūraliai džiūtų ar turėtumėte ilgesniam laikui.
+                </div>
+                <div className="mt-3">                Visas malkas kruopščiai paruošiame ir pristatome į jūsų nurodytą vietą, nepriklausomai nuo užsakymo dydžio. Užtikriname, kad mūsų malkos bus puikus pasirinkimas jūsų namų šildymui.                <br/>
+                </div>
 
             </div>
 

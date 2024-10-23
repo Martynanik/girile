@@ -192,7 +192,7 @@ const Toolbar = () => {
                         <div>
                             <ul className=" ml-6 mt-6 ">
                                 <li className="mt-3">
-                                    <Link to="/paslaugos/miskinihnkyste" onClick={handleClick}>
+                                    <Link to="/paslaugos/miskininkyste" onClick={handleClick}>
                                         Miškininkystė
                                     </Link>
                                 </li>
