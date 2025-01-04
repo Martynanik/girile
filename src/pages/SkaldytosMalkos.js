@@ -15,7 +15,7 @@ const SkaldytosMalkos = () =>{
                     Skaldytos malkos
                 </h1>
             </div>
-            <div className="text-accent text2 text-xl mb-8 p-6">
+            <div className="text-accent text2 text-xl mb-8 p-6 text-justify">
                 <div className="mt-3">                Tikriausiai neapsiriksime teigdami, kad malkos yra viena populiariausių kietojo kuro rūšių tiek namų šildymui, tiek kitiems poreikiams. Mūsų įmonė siūlo aukštos kokybės džiovintas ir žalias malkas, kurias galite rinktis iš skirtingų medienos rūšių pagal savo poreikius. Turime beržo, ąžuolo, uosio, juodalksnio bei kitų rūšių malkų, kurios patenkins įvairius klientų lūkesčius.
                 </div>
                 <div className="mt-3">                Ypatingai didžiuojamės mūsų modernia ir galinga džiovinimo sistema, kuri leidžia paruošti aukščiausios kokybės džiovintas malkas. Jos dega efektyviau, ilgiau ir yra paruoštos iš karto naudoti. Žalias malkas taip pat galite rinktis, jei norite, kad jos natūraliai džiūtų ar turėtumėte ilgesniam laikui.
@@ -27,24 +27,21 @@ const SkaldytosMalkos = () =>{
 
             <div className="flex flex-wrap justify-center gap-8 items-center space-x-4 mb-[100px]">
 
-                <div onClick={()=>nav("/produktai/skaldytosMalkos/azuolas")}
-                     className="flex flex-col gap-4 items-center">
+                <div className="flex flex-col gap-4 items-center">
                     <div className="text-accent text text-3xl font-bold">Ąžuolas</div>
                     {/*dezute su azuolu*/}
                     <div className=" custom-shadow oak shadow-2xl ">
                     </div>
                 </div>
 
-                <div onClick={()=>nav("/produktai/skaldytosMalkos/berzas")}
-                     className="flex flex-col gap-4 items-center">
+                <div className="flex flex-col gap-4 items-center">
                     <div className="text-accent text text-3xl font-bold">Beržas</div>
                     {/*dezute su berzu*/}
                     <div className=" custom-shadow birch shadow-2xl">
                     </div>
                 </div>
 
-                <div onClick={()=>nav("/produktai/skaldytosMalkos/alksnis")}
-                    className="flex flex-col gap-4 items-center">
+                <div className="flex flex-col gap-4 items-center">
                     <div className="text-accent text text-3xl font-bold">Alksnis</div>
                     {/*dezute su alksniu*/}
                     <div className=" custom-shadow alder shadow-2xl">

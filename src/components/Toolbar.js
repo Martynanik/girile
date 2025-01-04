@@ -19,6 +19,8 @@ const Toolbar = () => {
     };
 
     const [produktaiDropdownOpen, setProduktaiDropdownOpen] = useState(false);
+    const [apieDropdownOpen, setApieDropdownOpen] = useState(false);
+
     const [paslaugosDropdownOpen, setPaslaugosDropdownOpen] = useState(false);
 
     // Toggle the dropdown open/close
@@ -29,6 +31,9 @@ const Toolbar = () => {
         if (page === "paslaugos") {
             setPaslaugosDropdownOpen(!paslaugosDropdownOpen); // Toggle dropdown visibility
         }
+        if (page === "apie") {
+            setApieDropdownOpen(!apieDropdownOpen); // Toggle dropdown visibility
+        }
     };
 
 
@@ -36,7 +41,7 @@ const Toolbar = () => {
     const closeDropdown = () => {
         setProduktaiDropdownOpen(false); // Close the dropdown
         setPaslaugosDropdownOpen(false); // Close the dropdown
-
+        setApieDropdownOpen(false);
     };
 
     return (
@@ -60,11 +65,39 @@ const Toolbar = () => {
 
                 <div className="hidden text2 md:flex text-secondary text-none md:text-2xl gap-4">
 
-                    <div className="flex flex-col gap-2">
-                        <Link to="/apie"
-                              onClick={() => pressedPage(1)}
-                              className="no-underline transition-all duration-200">Apie mus</Link>
+                    <div className="dropdown flex flex-col gap-2">
+                        {/*<Link to="/apie"*/}
+                        {/*      onClick={() => pressedPage(1)}*/}
+                        {/*      className="no-underline transition-all duration-200">Apie mus</Link>*/}
+                        <Link
+                            to="#"
+                            onClick={(e) => {
+                                e.preventDefault(); // Prevent navigation
+                                toggleDropdown("apie"); // Toggle the dropdown
+                                pressedPage(1)
+                            }}
+                            className="flex items-center no-underline transition-all duration-200"
+                        >
+                            Apie mus
+                            <span className="arrow"></span>
+                        </Link>
+
+
                         <div className={`${chosenPage === 1 ? 'toolbar-line' : ''} bg-secondary`}></div>
+                        {apieDropdownOpen && (
+                            <ul className="menu dropdown-content z-50 bg-base-100 box w-full shadow mt-[43px]">
+                                <li>
+                                    <Link to="/apie" onClick={closeDropdown}>
+                                      Apie mus
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/apie/sertifikataiIrProjektai" onClick={closeDropdown}>
+                                        Sertifikatai ir projektai
+                                    </Link>
+                                </li>
+                            </ul>
+                        )}
                     </div>
 
                     <div className="dropdown flex flex-col gap-2">
@@ -152,21 +185,41 @@ const Toolbar = () => {
                     <div onClick={handleClick} className="flex justify-end">x</div>
 
                     <Link onClick={() => {
-                        handleClick();
-                        pressedPage(1)
-                    }}
-                          to="/apie" className="no-underline transition-all duration-200 ">Apie mus</Link>
-                    <div className={`${chosenPage === 1 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
 
+                        pressedPage(1)}}
+                         className="no-underline transition-all duration-200 ">
+                        Apie mus
+                    </Link>
+
+                    <div className={`${chosenPage === 1 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
+                    {chosenPage === 1 ?
+                        <div>
+                            <ul className=" ml-6 mt-6 ">
+                                <li className="mt-3">
+                                    <Link to="/apie" onClick={handleClick}>
+                                        Apie mus
+                                    </Link>
+                                </li>
+                                <li className="mt-3">
+                                    <Link to="/apie/sertifikataiIrProjektai" onClick={handleClick}>
+                                        Sertifikatai ir projektai
+                                    </Link>
+                                </li>
+
+                            </ul>
+
+                        </div> : ""}
                     <div onClick={() => {
                         pressedPage(2)
                     }}
-                          className="no-underline transition-all duration-200 mt-8 ">Produktai</div>
+                         className="no-underline transition-all duration-200 mt-8 ">
+                        Produktai
+                    </div>
                     <div className={`${chosenPage === 2 ? 'toolbar-line' : ''} bg-accent mt-2`}></div>
 
                     {chosenPage === 2 ?
-                    <div>
-                        <ul className=" ml-6 mt-6 ">
+                        <div>
+                            <ul className=" ml-6 mt-6 ">
                             <li className="mt-3">
                                 <Link to="/produktai/skaldytosMalkos" onClick={ handleClick}>
                                     Skaldytos malkos

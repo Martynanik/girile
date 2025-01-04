@@ -39,7 +39,7 @@ const About = () =>{
                 <h1 className="text2 text-3xl font-bold text-accent py-8 ">
                     Mūsų istorija
                 </h1>
-                <div className="text-accent text2 text-xl mb-8">
+                <div className="text-accent text2 text-xl mb-8 text-justify">
                     UAB „Girilė“ buvo įkurta 2009 metais, siekiant skatinti atsakingą miškininkystę, kuri palaiko ekologinę pusiausvyrą. Mūsų misija – tvariai tvarkyti ir kirsti miškus, užtikrinant aukštos kokybės medienos gamybą ir aplinkos apsaugą. Tikime, kad svarbu užtikrinti gamtos išteklius ateities kartoms, todėl kiekviename mūsų darbo etape teikiame prioritetą kokybei ir ekologinei integracijai.
                     <br/>
                     <br/>

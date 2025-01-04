@@ -1,8 +1,7 @@
 import React, {useState} from "react";
 
 
-
-const Alksnis = () =>{
+const SertifikataiIrProjektai = () =>{
     return(
         <div className="text-center text2">
             KURIAMAS
@@ -10,4 +9,4 @@ const Alksnis = () =>{
     )
 }
 
-export default Alksnis
+export default SertifikataiIrProjektai

@@ -4,7 +4,7 @@ import React, {useState} from "react";
 
 const MedienosRuosa = () =>{
     return(
-        <div className="bg-secondary h-full flex flex-col">
+        <div className="bg-secondary min-h-[1000px] h-full flex flex-col">
             <div className=" flex justify-center mt-7">
                 <h1
                     className="text-accent text-center text text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
@@ -15,7 +15,7 @@ const MedienosRuosa = () =>{
             <div className="flex flex-col items-center md:flex-row gap-8 text-accent text2 text-xl mb-8 p-6">
                 <div className="flex-grow-0 flex-shrink-0 custom-shadow skaldykle shadow-2xl"></div>
                 <div className="flex-grow">
-                    <div className="flex flex-col gap-6 w-full">
+                    <div className="flex flex-col gap-6 w-full text-justify">
                         <div>
                             Mūsų įmonė specializuojasi kokybiškoje medienos ruošoje, užtikrindama, kad kiekvienas
                             medienos

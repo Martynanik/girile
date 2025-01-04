@@ -11,9 +11,9 @@ const ApvaliMediena = () =>{
                 </h1>
             </div>
 
-            <div className="text-accent text2 text-xl  p-6">
+            <div className="text-accent text2 text-justify text-xl  p-6">
                 <h1
-                    className="text-accent text-start text text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
+                    className="text-accent text-start  text text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
                     Parduodame
                 </h1>
 
@@ -21,7 +21,7 @@ const ApvaliMediena = () =>{
 
             </div>
 
-            <div className="text-accent text2 text-xl mb-8 p-6">
+            <div className="text-accent text2 text-justify text-xl mb-8 p-6">
                 <h1
                     className="text-accent text-start text text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
                     Perkame
@@ -41,33 +41,15 @@ const ApvaliMediena = () =>{
 
                 <div>
                     Sutariama preliminari medienos kaina; <br/>
-                    įvertinama medienos būklė ir vertė; <br/>
-                    išmatuojami perkamos medienos kiekiai; <br/>
-                    pasirašoma pirkimo-pardavimo sutartis.
+                    Įvertinama medienos būklė ir vertė; <br/>
+                    Išmatuojami perkamos medienos kiekiai; <br/>
+                    Pasirašoma pirkimo-pardavimo sutartis.
                 </div>
 
 
             </div>
 
-            {/*<div className="flex flex-col md:flex-row justify-center gap-8 items-center space-x-4 mb-6">*/}
-            {/*    <div className=" custom-shadow box-product  bg-accent shadow-2xl mt-6 ">*/}
-            {/*        <div className="flex flex-col items-center gap-5 sliding-div ">*/}
-            {/*            <div className="text-center text2 text-3xl text-secondary">*/}
-            {/*                Skaldytos malkos*/}
-            {/*            </div>*/}
-            {/*            <div className="full-line bg-secondary"></div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
 
-            {/*    <div className=" custom-shadow box-product  bg-accent shadow-2xl mt-6">*/}
-            {/*        <div className="flex flex-col items-center gap-5 sliding-div ">*/}
-            {/*            <div className="text-center text2 text-3xl text-secondary">*/}
-            {/*                Apvali mediena*/}
-            {/*            </div>*/}
-            {/*            <div className="full-line bg-secondary"></div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </div>
     )
 }
