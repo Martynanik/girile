@@ -168,7 +168,7 @@ details > summary::-webkit-details-marker {
 
 }
 .sertificate1 {
-    background-image: url('../images/forest.jpg');
+    background-image: url('https://www.google.com/imgres?q=certificate&imgurl=https%3A%2F%2Fgraphicsfamily.com%2Fwp-content%2Fuploads%2Fedd%2F2022%2F01%2FAward-Certificate-Template-scaled.jpg&imgrefurl=https%3A%2F%2Fgraphicsfamily.com%2Fdownloads%2Faward-certificate-template%2F&docid=5r3kQQXpQsVE0M&tbnid=W3ux17saH_JPRM&vet=12ahUKEwiKyc2cmKOPAxXQKxAIHTNxBkUQM3oECBoQAA..i&w=2560&h=1861&hcb=2&ved=2ahUKEwiKyc2cmKOPAxXQKxAIHTNxBkUQM3oECBoQAA');
     background-size: cover;     /* Make the image cover the entire div */
     background-position: center;/* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
