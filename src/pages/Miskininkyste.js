@@ -23,19 +23,11 @@ const Miskininkyste = () =>{
             </div>
             <div className="flex flex-col gap-12 p-6 mb-10 ">
                 <div className="text-accent text2 text-xl  text-justify">
-                    <h1
-                        className="text-accent text-start text text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">
-                        Pavadinimas
-                    </h1>
-
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum facere quae quam quia quo
-                    sapiente. Ab
-                    accusamus aperiam at autem beatae cum deleniti distinctio enim eos, eum ex excepturi expedita facere
-                    iure iusto minima modi mollitia neque nesciunt numquam obcaecati optio perferendis placeat,
-                    provident
-                    quae quas quasi quis quod saepe sequi totam velit veritatis voluptatem! Amet eaque quasi soluta
-                    tempore.
-
+                    {/*<h1*/}
+                    {/*    className="text-accent text-start text text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 tracking-wider leading-tight w-full md:w-2/3">*/}
+                    {/*    Pavadinimas*/}
+                    {/*</h1>*/}
+                    Įmonė teikia miško ruošos paslaugas VĮ Valstybinių miškų urėdijai, kitiems juridiniams ir fiziniams asmenims. Mediena kertama medkirtėmis, traukiama iš miškų medvežėmis ir kraunama į medienos sandėlius bei transportuojama užsakovams. Taip pat turime patyrusią pjovėjų komandą, kuri ne tik gali iškirsti, bet ir išvalyti Jūsų mišką.
                 </div>
             </div>
         </div>

@@ -16,11 +16,14 @@ const SkaldytosMalkos = () =>{
                 </h1>
             </div>
             <div className="text-accent text2 text-xl mb-8 p-6 text-justify">
-                <div className="mt-3">                Tikriausiai neapsiriksime teigdami, kad malkos yra viena populiariausių kietojo kuro rūšių tiek namų šildymui, tiek kitiems poreikiams. Mūsų įmonė siūlo aukštos kokybės džiovintas ir žalias malkas, kurias galite rinktis iš skirtingų medienos rūšių pagal savo poreikius. Turime beržo, ąžuolo, uosio, juodalksnio bei kitų rūšių malkų, kurios patenkins įvairius klientų lūkesčius.
+                <div className="mt-3">
+                    Tikriausiai neapsiriksime teigdami, kad malkos yra viena populiariausių kietojo kuro rūšių tiek namų šildymui, tiek kitiems poreikiams. Mūsų įmonė siūlo aukštos kokybės tiek džiovintas, tiek ir žalias skaldytas malkas, kurias galite pasirinkti iš įvairių medienos rūšių pagal savo poreikius. Turime beržo, ąžuolo, uosio, juodalksnio bei kitų rūšių malkų, kurios patenkins klientų lūkesčius.
                 </div>
-                <div className="mt-3">                Ypatingai didžiuojamės mūsų modernia ir galinga džiovinimo sistema, kuri leidžia paruošti aukščiausios kokybės džiovintas malkas. Jos dega efektyviau, ilgiau ir yra paruoštos iš karto naudoti. Žalias malkas taip pat galite rinktis, jei norite, kad jos natūraliai džiūtų ar turėtumėte ilgesniam laikui.
+                <div className="mt-3">
+                    Ypatingai didžiuojamės mūsų modernia ir galinga džiovinimo sistema, kuri leidžia paruošti aukščiausios kokybės džiovintas malkas. Jos dega efektyviau, ilgiau ir yra paruoštos iš karto naudoti. Taip pat galite rinktis ir žalias, jei norite, kad jos džiūtų natūraliai.
                 </div>
-                <div className="mt-3">                Visas malkas kruopščiai paruošiame ir pristatome į jūsų nurodytą vietą, nepriklausomai nuo užsakymo dydžio. Užtikriname, kad mūsų malkos bus puikus pasirinkimas jūsų namų šildymui.                <br/>
+                <div className="mt-3">
+                    Visas malkas paruošiame ir pristatome į jūsų nurodytą vietą. Užtikriname, kad mūsų malkos bus puikus pasirinkimas jūsų namų šildymui.
                 </div>
 
             </div>

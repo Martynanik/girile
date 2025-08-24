@@ -99,9 +99,9 @@ const Contacts = () =>{
                          alt=""/>
                 </div>
                 <div className="flex flex-col gap-6 mt-2 ml-4">
-                    <div className="  text3 ">Pozicija</div>
-                    <div>Vardas pavardė</div>
-                    <div>Tel. numeris: <span className="text tracking-wide">+37011111111</span></div>
+                    <div className="  text3 ">Vyr. buhalterė</div>
+                    <div>Sandra Ilevičienė</div>
+                    <div>Tel. numeris: <span className="text tracking-wide">+370 615 53711</span></div>
                 </div>
             </div>
             <div className="w-full h-auto bg-secondary rounded-lg flex gap-2 text2 text-accent shadow-2xl p-5 ">
@@ -111,9 +111,9 @@ const Contacts = () =>{
                          alt=""/>
                 </div>
                 <div className="flex flex-col gap-6 mt-2 ml-4">
-                    <div className="  text3 ">Pozicija</div>
-                    <div>Vardas pavardė</div>
-                    <div>Tel. numeris: <span className="text tracking-wide">+37011111111</span></div>
+                    <div className="  text3 ">Transporto vadybininkas</div>
+                    <div>Vytautas Poškus</div>
+                    <div>Tel. numeris: <span className="text tracking-wide">+370 611 10981</span></div>
                 </div>
             </div>
 
@@ -127,6 +127,8 @@ const Contacts = () =>{
                     <div>UAB "Girile ir Ko"</div>
                     <div>Įmonės kodas: 302325732</div>
                     <div>PVM mokėtojo kodas: LT100004614215</div>
+                    <div>Adresas: Gegužinės g. 43, Giedraičių k., Radviliškio r.</div>
+
                 </div>
             </div>
 

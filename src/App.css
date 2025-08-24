@@ -167,6 +167,18 @@ details > summary::-webkit-details-marker {
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
 
 }
+.sertificate1 {
+    background-image: url('../images/forest.jpg');
+    background-size: cover;     /* Make the image cover the entire div */
+    background-position: center;/* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 200px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+
+}
 
 .alder:hover {
     transform: scale(1.03); /* Enlarge the div by 10% when hovered */

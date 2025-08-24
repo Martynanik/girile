@@ -32,13 +32,7 @@ const TransportoPaslaugos = () =>{
                         Medienos pervežimas
                     </h1>
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum facere quae quam quia quo
-                    sapiente. Ab
-                    accusamus aperiam at autem beatae cum deleniti distinctio enim eos, eum ex excepturi expedita facere
-                    iure iusto minima modi mollitia neque nesciunt numquam obcaecati optio perferendis placeat,
-                    provident
-                    quae quas quasi quis quod saepe sequi totam velit veritatis voluptatem! Amet eaque quasi soluta
-                    tempore.
+                    Jeigu reikia nukirstą apvalią medieną pervežti nuo kirtavietės iki jūsų sandėlio, galutinio pirkėjo ar numatytos sandėliavimo vietos – drąsiai kreipkitės į mus! UAB „Girilė“ siūlo kokybišką medienos pervežimo paslaugą miškavežiais. Turime ilgametę patirtį ir įdirbį. Taip pat atliekame jūrinių konteinerių pakrovimo ar medienos rūšiavimo sandėlyje paslaugas.
 
                 </div>
 

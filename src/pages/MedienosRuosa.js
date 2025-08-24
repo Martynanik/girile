@@ -17,28 +17,16 @@ const MedienosRuosa = () =>{
                 <div className="flex-grow">
                     <div className="flex flex-col gap-6 w-full text-justify">
                         <div>
-                            Mūsų įmonė specializuojasi kokybiškoje medienos ruošoje, užtikrindama, kad kiekvienas
-                            medienos
-                            gabalas būtų kruopščiai paruoštas naudojimui. Naudojame modernias ir galingas skaldykles,
-                            kurios
-                            leidžia efektyviai ir greitai suskaldyti įvairių rūšių medieną. Tai garantuoja vienodą
-                            skaldytos
-                            medienos dydį, lengvesnį transportavimą ir patogų sandėliavimą.
+                            Malkų skaldymas – sunkus darbas, reikalaujantis nemažos fizinės jėgos, nes kaladės būna įvairios – suktos, kietos. Mūsų įmonė specializuojasi kokybiškoje medienos ruošoje. Naudojame modernias ir galingas skaldykles, kurios leidžia efektyviai ir greitai suskaldyti įvairių rūšių medieną. Tai garantuoja tikslų skaldytos medienos ilgį, lengvesnį transportavimą ir patogų sandėliavimą.
                         </div>
 
                         <div>
-                            Skaldymo procesas skaldyklėmis užtikrina tikslumą ir greitį, todėl mediena tampa paruošta
-                            tiek
-                            šildymui, tiek kitoms reikmėms. Nesvarbu, ar reikia skaldyti kietmedį, kaip ąžuolą ir uosį,
-                            ar
-                            minkštesnę medieną, visada stengiamės užtikrinti aukščiausią kokybę ir maksimalų klientų
-                            pasitenkinimą.
+                            Skaldymo procesas skaldyklėmis užtikrina tikslumą ir greitį, todėl malkos tampa paruoštos tiek šildymui, tiek kitoms reikmėms. Nesvarbu, ar reikia skaldyti kietmedį, kaip ąžuolą ir uosį, ar minkštesnę medieną, visada stengiamės užtikrinti aukščiausią kokybę ir maksimalų klientų pasitenkinimą.
                         </div>
 
                         <div>
-                            Pasitikėkite mūsų patirtimi ir profesionalia įranga – jūsų mediena bus paruošta optimaliai
-                            ir
-                            laiku.
+                            Pasitikėkite mūsų patirtimi ir profesionalia įranga – jūsų mediena bus paruošta optimaliai ir laiku.
+
                         </div>
                     </div>
                 </div>

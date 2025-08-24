@@ -43,8 +43,7 @@ const About = () =>{
                     UAB „Girilė“ buvo įkurta 2009 metais, siekiant skatinti atsakingą miškininkystę, kuri palaiko ekologinę pusiausvyrą. Mūsų misija – tvariai tvarkyti ir kirsti miškus, užtikrinant aukštos kokybės medienos gamybą ir aplinkos apsaugą. Tikime, kad svarbu užtikrinti gamtos išteklius ateities kartoms, todėl kiekviename mūsų darbo etape teikiame prioritetą kokybei ir ekologinei integracijai.
                     <br/>
                     <br/>
-                    Įmonės vadovas, Vidmantas Nikša, subūrė patyrusią komandą, dirbančią su modernia technika, kuri orientuota į kokybę ir ekologinę integraciją, siekiant užtikrinti gamtos išteklius ateities kartoms. Mes kviečiame jus prisijungti prie mūsų kelionės link žalesnės ir tvaresnės pasaulio, kur kiekvienas mūsų veiksmas prisideda prie geresnės ateities.
-
+                    Įmonės vadovas, Vidmantas Nikša, subūrė patyrusią komandą, dirba su modernia technika, kuri orientuota į kokybę ir ekologinę integraciją, siekiant užtikrinti gamtos išteklius. Mes kviečiame jus prisijungti prie mūsų kelionės link žalesnio ir tvaresnio pasaulio, kur kiekvienas mūsų veiksmas veda prie geresnės ateities.
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center gap-8 items-center space-x-4 mb-6">
@@ -88,7 +87,7 @@ const About = () =>{
 
 
                             {vision && <div className="values-text text-center text2 text-secondary">
-                                Skatinti atsakingą miškininkystę, prisidedant prie ekologinės pusiausvyros ir užtikrinti tvarius gamtos išteklius ateities kartoms.
+                                Skatinti atsakingą miškininkystę, laikantis ekologinės pusiausvyros ir užtikrinti tvarius gamtos išteklius ateities kartoms.
                             </div>}
 
                         </div>
